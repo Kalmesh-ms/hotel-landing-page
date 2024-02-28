@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="https://fav.farm/🌶" />
+
+    <title>Hot Restaurant</title>
+    
+</head>
+<body>
+    <div class="circle"></div>
+    <section>
+        <header>
+            <a href="#" class="logo"><img src="assets/logo.jpg" alt="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <div>
+                    <h1>Where Bollywood meets the burrito!<br> Let's <span> Spice up your life with a fiesta of flavors !</span> </h1>
+                    <p> It's not just Indian, it's not just Mexican, it's a masala-packed mariachi party on your plate!</p>
+                    <div class="social">
+                        <a href="#">About Us</a>
+                        <ul>
+                            <li><box-icon class="icon" type='logo' name='facebook'></box-icon></li>
+                            <li><box-icon class="icon" type='logo' name='instagram'></box-icon></li>
+                            <li><box-icon class="icon" type='logo' name='twitter'></box-icon></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="imgBox">
+                        <img src="assets/salad.jpg" alt="salad" class="hot">
+                    </div>
+                </div>
+            </div>
+        </div>
+            <ul class="thumb">
+                <li><img src="assets/salad.jpg" alt="" onclick=""></li>
+                <li><img src="assets/noodle.jpg" alt="" onclick=""></li>
+                <li><img src="assets/taco.jpeg" alt=""  onclick=""></li>
+                <li><img src="assets/cola.png" alt=""  onclick=""></li>
+            </ul>
+            
+    </section>
+
+    <script type="text/javascript">
+        function imgSlider(source) {
+            document.querySelector('.hot').src = source;
+        }
+    </script>
+</body>
+</html>
